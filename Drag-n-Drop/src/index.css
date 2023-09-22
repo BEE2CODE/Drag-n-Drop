@@ -81,7 +81,7 @@ input::placeholder{
 
 
 .form-container{
-  width: 30vw;
+  width: 40vw;
   background-color: rgb(25, 13, 160);
   display: flex;
   justify-content: center;
@@ -142,5 +142,13 @@ form button:hover{
 @media screen and (max-width: 442px){
   .tab{
     display: none;
+  }
+  .form-container{
+    width: 100%;
+    border-radius: 0;
+  }
+  input{
+    width: 100%;
+    padding: 12px ;
   }
 }
